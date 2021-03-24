@@ -158,6 +158,9 @@ describe('[Exercise 6] Car', () => {
   })
   it('[18] adding fuel to a full tank has no effect', () => {
     // ✨ test away
+    expect(focus.refuel(100)).toEqual(20);
+
+
   })
 })
 
